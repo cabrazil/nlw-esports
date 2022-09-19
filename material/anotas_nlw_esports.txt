@@ -1,0 +1,98 @@
+NLW esports
+NLW Chave Aula 1 LevelUp
+NLW Chave Aula 2 Journey
+NLW Chave Aula 3 UntilTheEnd
+
+Server
+npm init -y
+npm i express
+
+Em vez de insominia, usou Hoppscotch, pode instalar no browser como um pwa
+https://hoppscotch.io/pt-br
+
+npm i typescript
+
+npx tsc --init
+Alterações em tsconfig.json
+
+npm i @types/express -D
+
+npm i ts-node-dev -D
+
+
+Banco será o Sqlite3
+sudo apt install sqlite3
+
+npm i prisma -D
+npx prisma init --datasource-provider SQLite
+Criação do schema.prisma
+npx prisma migrate dev
+
+ver snowflake id
+npm i @prisma/client
+
+validação zood javascript
+npm i cors
+npm i @types/cors -D
+
+
+
+
+
+-------------------------
+Web
+Vamos usar vite
+npm create vite@latest
+Cria projeto web
+
+npm install
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm i phosphor-react
+
+Lib radix
+npm i @radix-ui/react-dialog
+
+npm i axios
+
+npm i @radix-ui/react-checkbox @radix-ui/react-select @radix-ui/react-toggle-group
+
+
+
+-------------------------
+Mobile
+expo init mobile
+
+Instalar expo go
+
+ALterações na estrtura do projeto, usar material de apoio
+
+expo install expo-font @expo-google-fonts/inter
+
+
+expo install react-native-safe-area-context
+
+expo install expo-linear-gradient
+
+No app vai precisar colocar o Ip da rede p usar a API q busca os dados
+
+npm i @react-navigation/native
+expo install react-native-screens
+npm install @react-navigation/native-stack
+
+npm i phosphor-react-native
+
+expo install react-native-svg
+
+expo install expo-clipboard
+
+expo install expo-notifications
+
+
+
+
+
+
+
